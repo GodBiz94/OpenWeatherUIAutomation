@@ -13,10 +13,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BasePage {
 	
+	
 	public static WebDriver driver;
 	String url = "https://openweathermap.org/";
 	public static ExtentTest logger;
 	public static ExtentReports report;
+	
 	
 	@BeforeMethod
 	public void setup(ITestContext context) {
