@@ -12,3 +12,10 @@ Dependencies used - Make sure to download the same.
 - org.testng
 - webdrivermanager
 - extentreports
+
+Repository details
+- src/test/java/tests contains the test files HomePageTest.java and MapsTest.java
+- src/main/java/pages contains the page object files HomePage.java & Maps.java and BasePage.java
+- src/main/java/utils contains ExtentReportListener to create ExtentReports and ConfigUtil to fetch data from an external dataprovider in the form of a csv
+- src/main/resources contains the dataprovider.csv
+  
