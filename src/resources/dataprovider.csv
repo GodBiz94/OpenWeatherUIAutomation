@@ -1,0 +1,5 @@
+key,value
+url,https://openweathermap.org/
+cityname,Bengaluru
+invalidInput,XYZ
+notFoundErrorText,Not found. To make search more precise put the city's name, comma, 2-letter country code (ISO3166).
